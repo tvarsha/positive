@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <button onclick="but()">Click</button>
+        <p id="demo">Number</p>
+       
+        
+    </head>
+    <body>
+        <script>
+      
+            function but(){
+             var x=prompt("Please enter a number")   
+             if(x>0){
+               var x= document.getElementById('demo');
+               x.innerHTML="This is positive Number";
+               x.style.color="green";
+               
+              
+             } 
+             else if(x<0) {
+                var x= document.getElementById('demo');
+               x.innerHTML="This is Negative Number";
+               x.style.color="red";
+          
+             }
+             else if(x==0) {
+                var x= document.getElementById('demo');
+               x.innerHTML="This is positive Number";
+               x.style.color="green";
+              
+             }
+         }
+          </script>
+    </body>
+</html>

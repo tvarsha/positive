@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <title>Form</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <script>
+        function myFunction() {
+ 
+ 
+  x = document.getElementById("numb").value;
+ 
+  if(x=="")
+  {
+    var x1=document.getElementById("demo");
+  x1.innerHTML = "Please Enter The Details";
+  x1.style.backgroundColor="grey"
+  }
+  else{
+      return false;
+  }
+ 
+ 
+}</script>
+    </head>
+    <body>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-6">
+                    <form>
+                        <label>Name</label>
+                        <input id="numb" type="text" name="Name" class="form-control">
+                        <label>Age</label>
+                        <input id="numb" type="text" name="Age" class="form-control">
+                   
+ 
+                        <button type="button" class="btn btn-primary mt-3" onclick="myFunction()">Print Tickets  </button>
+                   
+                        
+                        <p class="mt-3"id="demo"></p>
+                    </form>
+                </div>
+                <div class="col-6">
+                    <img src="https://image.shutterstock.com/image-photo/self-service-machine-help-desk-260nw-1283837263.jpg">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+ 
+<div class="col-6">Self service machine and help desk kiosk at airport for check in, printing boarding pass or buying ticket
+        See and print your etickets. Please note: E–tickets will be available here approximately 30 minutes after you make the booking. Grab copies of your etickets here ...
+</div>
+ 
+            </div>
+        </div>
+           
+            
+    </body>
+</html>

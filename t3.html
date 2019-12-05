@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>Button</title>
+        <input type="text" name="FirstName" value="OJAS">
+    <button onclick="display()">Click</button>
+    </head>
+    <body>
+            <script>
+                    function display() {
+                        alert(document.getElementsByName("FirstName")[0].value);
+                        document.getElementsByTagName("INPUT")[0].setAttribute("type","button")
+                    
+                    }
+                    </script>
+    </body>
+    
+</html>
